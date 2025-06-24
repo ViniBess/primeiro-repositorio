@@ -1,0 +1,17 @@
+header {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6%;
+    align-items: center;
+
+    & a:nth-child(1):hover {
+        font-weight: bold;
+    }
+
+    & .botao-roxo {
+        margin-left: 30px;
+    }
+
+  
+}

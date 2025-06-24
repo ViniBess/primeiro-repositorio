@@ -1,0 +1,52 @@
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 6%;
+
+    & .formulario-footer {
+
+        & p {
+            margin-bottom: 15px;
+        }
+
+        & input {
+            
+            width: 250px;
+            height: 40px;
+            border-radius: 30px;
+            background-color: var(--preto-claro);
+            border: none;
+            padding: 30px;
+            font-size: var(--paragrafo);
+            margin-right: 25px;
+        }
+
+        & button {
+
+            border: none;
+            font-size: var(--paragrafo);
+        }
+    }
+
+    & .conteudo-footer h1 {
+        display: flex;
+        font-size: var(--subtitulo);
+        padding-bottom: 44px;
+    }
+
+    & .conteudo-footer>div {
+        display: flex;
+        gap: 30px;
+        font-weight: bold;
+    }
+
+    & p {
+        color: var(--branco);
+    }
+
+    & .titulo-mobile{
+        display: none;
+    }
+}

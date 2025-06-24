@@ -1,0 +1,11 @@
+.conteudo-patrocinadores {
+    padding: 70px 10px;
+    border-top: 2px solid var(--cinza);
+    border-bottom: 2px solid var(--cinza);
+    margin-bottom: 100px;
+    text-align: center;
+
+    & img {
+        width: 80%;
+    }
+}
